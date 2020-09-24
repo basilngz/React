@@ -1,15 +1,17 @@
 import React from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap'; 
+import Menu from './components/MenuComponent';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar dark color="primary">
         <div className="container">
-          <NavbarBrand href="/">BNG</NavbarBrand>
+          <NavbarBrand href="/">Indian Foods</NavbarBrand>
         </div>
       </Navbar>
+      <Menu />
     </div>
   );
 }
